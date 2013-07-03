@@ -17,15 +17,19 @@ We'll start by creating a simple ``buildout.cfg`` that uses the recipe::
     ... # For some reason this is now needed:
     ... index = http://b.pypi.python.org/simple
     ... newest = false
+    ... versions = version
     ...
     ... [logger]
     ... recipe = collective.recipe.logger
+    ...
+    ... [version]
+    ... zc.recipe.egg = 1.3.2
     ... """)
 
 Running the buildout gives us::
 
     >>> print system(buildout)
-    Getting distribution for 'zc.recipe.egg'.
+    Getting distribution for 'zc.recipe.egg==1.3.2'.
     Got zc.recipe.egg 1.3.2.
     Installing logger.
     Generated script '/sample-buildout/bin/logger'.

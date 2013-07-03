@@ -46,7 +46,7 @@ setup(name='collective.recipe.logger',
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
           'Framework :: Buildout',
-          'Framework :: Buildout :: Recipe'
+          'Framework :: Buildout :: Recipe',
           'Intended Audience :: Developers',
           'Topic :: Software Development :: Build Tools',
           'License :: OSI Approved :: GNU General Public License (GPL)'

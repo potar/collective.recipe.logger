@@ -14,23 +14,13 @@ version = '0.1.0b2-dev'
 long_description = (
     read('README.rst')
     + '\n' +
-    'Detailed Documentation\n'
-    '**********************\n'
-    + '\n' +
-    read('collective', 'recipe', 'logger', 'README.rst')
-    + '\n' +
     'Contributors\n'
-    '************\n'
+    '============\n'
     + '\n' +
     read('CONTRIBUTORS.rst')
     + '\n' +
-    'Change history\n'
-    '**************\n'
-    + '\n' +
     read('CHANGES.rst')
-    + '\n' +
-    'Download\n'
-    '********\n'
+    + '\n'
 )
 
 entry_point = 'collective.recipe.logger:Recipe'

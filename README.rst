@@ -12,7 +12,7 @@ The simplest way to use this recipe is to add it to your ``buildout.cfg`` like t
     parts = logger
 
     [logger]
-    recipe = collective.recipe.backup
+    recipe = collective.recipe.logger
 
 
 Go to ``collective/recipe/logger/README.rst`` to see more details.
